@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <!-- Navegação com imagem de perfil -->
+  <nav>
+    <a href="#" class="logo">
+      <img src="eu.jpg" alt="Foto de perfil" class="img-nav" />
+      Meu Primeiro Portfólio
+    </a>
+    <ul>
+      <li><a href="#sobre-mim">Sobre mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Seção Sobre mim -->
+    <section id="sobre-mim" class="secao">
+      <h2>Sobre Mim</h2>
+      <p>Olá, sou Vinicius de Oliveira Mendes. Tenho formação técnica em Mecatrônica e Administração, e atualmente curso Análise e Desenvolvimento de Sistemas na Uninter.</p>
+      <p>Meus hobbies incluem ler mangás e assistir animes, uma forma divertida de aprender e relaxar.</p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao" class="secao">
+      <h2>Formação</h2>
+      <ul>
+        <li>Técnico em Mecatrônica</li>
+        <li>Técnico em Administração</li>
+        <li>Curso superior: Análise e Desenvolvimento de Sistemas (Uninter)</li>
+        <li>Idiomas: Português, Inglês intermediário avançado</li>
+      </ul>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" class="secao">
+      <h2>Portfólio</h2>
+      <ul>
+        <li><a href="https://github.com/yauso/trabalho/blob/main/exercicio4.py" target="_blank" rel="noopener">Projeto em Python Uninter - Lista de Contatos</a></li>
+        <li><a href="https://github.com/yauso/trabalho/blob/main/exercico3.py" target="_blank" rel="noopener">Projeto em Python Uninter - Madeireira</a></li>
+        <li><a href="https://github.com/yauso/trabalho/blob/main/exercicio2.py" target="_blank" rel="noopener">Projeto em Python Uninter - Pizzaria</a></li>
+      </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <form action="#" method="POST" class="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <!-- Contato direto -->
+      <div class="contato-links">
+        <p>Email: <a href="mailto:vinicius.mendes1234567@gmail.com">vinicius.mendes1234567@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vinicius-mendes-689a26175/" target="_blank">linkedin.com/in/vinicius-mendes-689a26175</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Vinicius de Oliveira Mendes</p>
+    <p>Email: <a href="mailto:vinicius.mendes1234567@gmail.com">vinicius.mendes1234567@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/vinicius-mendes-689a26175/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+</body>
+</html>
